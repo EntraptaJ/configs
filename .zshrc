@@ -9,3 +9,4 @@ alias node='docker run -it --rm -w /workdir -v $PWD:/workdir docker.pkg.github.c
 alias npm='docker run -it --rm -w /workdir -v $PWD:/workdir docker.pkg.github.com/kristianfjones/docker-images/node-alpine npm'
 alias npx='docker run -it --rm -w /workdir -v $PWD:/workdir docker.pkg.github.com/kristianfjones/docker-images/node-alpine npx'
 alias python='docker run -it --rm -w /workdir -v $PWD:/workdir frolvlad/alpine-python3 python3'
+alias bfg='docker run -it --rm -w /workdir -v $PWD:/workdir docker.pkg.github.com/kristianfjones/docker-images/bfg:alpine'
